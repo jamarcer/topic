@@ -1,0 +1,29 @@
+{
+    "name": "jamarcer/topic",
+    "description": "Message topic generator",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+    {
+        "name": "Jesús Martínez",
+        "email": "jamarcer@gmail.com"
+    }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jamarcer\\Topic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Jamarcer\\Tests\\Topic\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
